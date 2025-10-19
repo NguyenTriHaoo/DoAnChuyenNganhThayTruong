@@ -22,3 +22,21 @@ Xuất báo cáo thống kê: Tổng hợp dữ liệu, phục vụ cho việc p
 3. Employee (Nhân viên)
 Quản lý sản phẩm trong phạm vi cho phép: Cập nhật, chỉnh sửa thông tin sản phẩm theo quyền hạn được giao.
 Quản lý kho: Thực hiện các thao tác nhập, xuất và kiểm kê hàng hóa theo phân công.
+
+III. Yêu cầu hệ thống
+1. Yêu cầu chức năng (Functional Requirements)
+Hệ thống phải thực hiện được các chức năng sau:
+ Đối với Admin
+Hệ thống phải cho phép Admin đăng nhập bằng tài khoản hợp lệ.
+Hệ thống phải cho phép Admin quản lý người dùng (thêm, sửa, xóa).
+Hệ thống phải cho phép Admin phân quyền cho từng tài khoản.
+Hệ thống phải cho phép Admin quản lý danh mục sản phẩm (thêm, sửa, xóa category).
+Hệ thống phải cho phép Admin quản lý thông tin sản phẩm (mã sản phẩm, tên, giá, mô tả, hình ảnh, số lượng tồn).
+Hệ thống phải cho phép Admin theo dõi nhập – xuất kho, cập nhật số lượng tồn tự động.
+Hệ thống phải cho phép Admin tạo và xuất báo cáo (hàng tồn, hàng nhập/xuất, doanh thu, người thực hiện,...).
+
+  Đối với Employee
+Hệ thống phải cho phép Employee đăng nhập với quyền hạn được cấp.
+Hệ thống phải cho phép Employee xem và chỉnh sửa sản phẩm nếu có quyền.
+Hệ thống phải cho phép Employee nhập hoặc xuất hàng hóa trong phạm vi phân quyền.
+Hệ thống phải cập nhật số lượng tồn kho sau mỗi hoạt động nhập/xuất.
