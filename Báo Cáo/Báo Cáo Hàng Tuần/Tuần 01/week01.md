@@ -14,39 +14,44 @@ II. Yêu cầu người dùng
 
 3. Mô tả yêu cầu người dùng
 1. Admin (Quản trị viên)
-Quản lý người dùng và phân quyền: Kiểm soát quyền truy cập, đảm bảo an toàn cho hệ thống.
-Quản lý sản phẩm và danh mục: Cập nhật, chỉnh sửa thông tin sản phẩm (điện thoại, phụ kiện,...).
-Theo dõi hoạt động nhập – xuất kho: Giám sát tình trạng hàng hóa và quá trình luân chuyển trong kho.
-Xuất báo cáo thống kê: Tổng hợp dữ liệu, phục vụ cho việc phân tích và ra quyết định quản trị.
+- Quản lý người dùng và phân quyền: Kiểm soát quyền truy cập, đảm bảo an toàn cho hệ thống.
+- Quản lý sản phẩm và danh mục: Cập nhật, chỉnh sửa thông tin sản phẩm (điện thoại, phụ kiện,...).
+- Theo dõi hoạt động nhập – xuất kho: Giám sát tình trạng hàng hóa và quá trình luân chuyển trong kho.
+- Xuất báo cáo thống kê: Tổng hợp dữ liệu, phục vụ cho việc phân tích và ra quyết định quản trị.
 
 3. Employee (Nhân viên)
-Quản lý sản phẩm trong phạm vi cho phép: Cập nhật, chỉnh sửa thông tin sản phẩm theo quyền hạn được giao.
-Quản lý kho: Thực hiện các thao tác nhập, xuất và kiểm kê hàng hóa theo phân công.
+- Quản lý sản phẩm trong phạm vi cho phép: Cập nhật, chỉnh sửa thông tin sản phẩm theo quyền hạn được giao.
+- Quản lý kho: Thực hiện các thao tác nhập, xuất và kiểm kê hàng hóa theo phân công.
 
 III. Yêu cầu hệ thống
 1. Yêu cầu chức năng (Functional Requirements)
 Hệ thống phải thực hiện được các chức năng sau:
  Đối với Admin
-Hệ thống phải cho phép Admin đăng nhập bằng tài khoản hợp lệ.
-Hệ thống phải cho phép Admin quản lý người dùng (thêm, sửa, xóa).
-Hệ thống phải cho phép Admin phân quyền cho từng tài khoản.
-Hệ thống phải cho phép Admin quản lý danh mục sản phẩm (thêm, sửa, xóa category).
-Hệ thống phải cho phép Admin quản lý thông tin sản phẩm (mã sản phẩm, tên, giá, mô tả, hình ảnh, số lượng tồn).
-Hệ thống phải cho phép Admin theo dõi nhập – xuất kho, cập nhật số lượng tồn tự động.
-Hệ thống phải cho phép Admin tạo và xuất báo cáo (hàng tồn, hàng nhập/xuất, doanh thu, người thực hiện,...).
+- Hệ thống phải cho phép Admin đăng nhập bằng tài khoản hợp lệ.
+- Hệ thống phải cho phép Admin quản lý người dùng (thêm, sửa, xóa).
+- Hệ thống phải cho phép Admin phân quyền cho từng tài khoản.
+- Hệ thống phải cho phép Admin quản lý danh mục sản phẩm (thêm, sửa, xóa category).
+- Hệ thống phải cho phép Admin quản lý thông tin sản phẩm (mã sản phẩm, tên, giá, mô tả, hình ảnh, số lượng tồn).
+- Hệ thống phải cho phép Admin theo dõi nhập – xuất kho, cập nhật số lượng tồn tự động.
+- Hệ thống phải cho phép Admin tạo và xuất báo cáo (hàng tồn, hàng nhập/xuất, doanh thu, người thực hiện,...).
 
   Đối với Employee
-Hệ thống phải cho phép Employee đăng nhập với quyền hạn được cấp.
-Hệ thống phải cho phép Employee xem và chỉnh sửa sản phẩm nếu có quyền.
-Hệ thống phải cho phép Employee nhập hoặc xuất hàng hóa trong phạm vi phân quyền.
-Hệ thống phải cập nhật số lượng tồn kho sau mỗi hoạt động nhập/xuất.
+- Hệ thống phải cho phép Employee đăng nhập với quyền hạn được cấp.
+- Hệ thống phải cho phép Employee xem và chỉnh sửa sản phẩm nếu có quyền.
+- Hệ thống phải cho phép Employee nhập hoặc xuất hàng hóa trong phạm vi phân quyền.
+- Hệ thống phải cập nhật số lượng tồn kho sau mỗi hoạt động nhập/xuất.
 
 2. Yêu cầu phi chức năng (Non-Functional Requirements)
-Hệ thống phải có giao diện thân thiện, dễ sử dụng cho cả người không chuyên.
-Hệ thống phải bảo mật thông tin người dùng và dữ liệu kho hàng.
-Hệ thống phải phản hồi thao tác trong vòng ≤ 3 giây.
-Hệ thống phải hoạt động tốt trên các trình duyệt hiện nay (Chrome, Edge, Firefox).
-Hệ thống phải cho phép sao lưu dữ liệu định kỳ (ví dụ: hàng tuần).
-Hệ thống phải hỗ trợ phân quyền rõ ràng, tránh truy cập trái phép.
-Dữ liệu phải được lưu trữ an toàn trong cơ sở dữ liệu MySQL hoặc tương đương.
+- Hệ thống phải có giao diện thân thiện, dễ sử dụng cho cả người không chuyên.
+- Hệ thống phải bảo mật thông tin người dùng và dữ liệu kho hàng.
+- Hệ thống phải phản hồi thao tác trong vòng ≤ 3 giây.
+- Hệ thống phải hoạt động tốt trên các trình duyệt hiện nay (Chrome, Edge, Firefox).
+- Hệ thống phải cho phép sao lưu dữ liệu định kỳ (ví dụ: hàng tuần).
+- Hệ thống phải hỗ trợ phân quyền rõ ràng, tránh truy cập trái phép.
+- Dữ liệu phải được lưu trữ an toàn trong cơ sở dữ liệu MySQL hoặc tương đương.
+
+IV. Ràng buộc và phạm vi
+- Hệ thống chỉ phục vụ quản lý nội bộ cửa hàng điện thoại (không dành cho khách hàng bên ngoài).
+- Mỗi user phải được Admin tạo tài khoản và cấp quyền trước khi sử dụng.
+- Mọi hoạt động nhập/xuất phải ghi lại lịch sử thao tác để phục vụ kiểm tra và báo cáo.
 
