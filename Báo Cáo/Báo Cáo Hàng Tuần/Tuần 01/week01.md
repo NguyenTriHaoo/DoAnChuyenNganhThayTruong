@@ -9,8 +9,8 @@ Trước đây, các quy trình quản lý kho tại cửa hàng điện thoại
 
 II. Yêu cầu người dùng
 1. Người dùng chính
-Admin (Quản trị viên): người quản lý tổng thể hệ thống.
-Employee (Nhân viên): người thực hiện nhập – xuất kho, cập nhật sản phẩm trong phạm vi quyền được giao.
+- Admin (Quản trị viên): người quản lý tổng thể hệ thống.
+- Employee (Nhân viên): người thực hiện nhập – xuất kho, cập nhật sản phẩm trong phạm vi quyền được giao.
 
 3. Mô tả yêu cầu người dùng
 1. Admin (Quản trị viên)
@@ -40,3 +40,13 @@ Hệ thống phải cho phép Employee đăng nhập với quyền hạn đượ
 Hệ thống phải cho phép Employee xem và chỉnh sửa sản phẩm nếu có quyền.
 Hệ thống phải cho phép Employee nhập hoặc xuất hàng hóa trong phạm vi phân quyền.
 Hệ thống phải cập nhật số lượng tồn kho sau mỗi hoạt động nhập/xuất.
+
+2. Yêu cầu phi chức năng (Non-Functional Requirements)
+Hệ thống phải có giao diện thân thiện, dễ sử dụng cho cả người không chuyên.
+Hệ thống phải bảo mật thông tin người dùng và dữ liệu kho hàng.
+Hệ thống phải phản hồi thao tác trong vòng ≤ 3 giây.
+Hệ thống phải hoạt động tốt trên các trình duyệt hiện nay (Chrome, Edge, Firefox).
+Hệ thống phải cho phép sao lưu dữ liệu định kỳ (ví dụ: hàng tuần).
+Hệ thống phải hỗ trợ phân quyền rõ ràng, tránh truy cập trái phép.
+Dữ liệu phải được lưu trữ an toàn trong cơ sở dữ liệu MySQL hoặc tương đương.
+
