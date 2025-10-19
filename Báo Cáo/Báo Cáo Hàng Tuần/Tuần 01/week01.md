@@ -1,5 +1,6 @@
+                                                                CHƯƠNG I
 I. Giới thiệu hệ thống
-1. Mục tiêu của hệ thống
+1. Tổng quan
 Hệ thống được xây dựng nhằm hỗ trợ quản lý kho và sản phẩm cho cửa hàng điện thoại, giúp việc theo dõi hàng hóa, nhập – xuất linh kiện và thiết bị, quản lý nhân viên, phân quyền và báo cáo thống kê trở nên dễ dàng, chính xác và hiệu quả hơn.
 Trước đây, các quy trình quản lý kho tại cửa hàng điện thoại thường được thực hiện thủ công bằng giấy tờ hoặc bảng tính Excel, dẫn đến:
 - Dữ liệu dễ sai lệch hoặc thất lạc.
